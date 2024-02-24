@@ -1,0 +1,807 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar CSS Start */
+
+img {
+  height: 70px;
+  margin: 0 30px;
+}
+
+.left {
+  font-size: 1.3rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #06bbcc;
+}
+
+.nav-sec {
+  height: 75px;
+  background-color: #06bbcc;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: sticky;
+  top: 5px;
+  z-index: 2;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 0 20px;
+  font-size: 1.1rem;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul li a:hover {
+  color: #06bbcc;
+}
+
+.adm {
+  height: 70px;
+  width: 200px;
+  background-color: #06bbcc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.adm i {
+  margin: 0 10px;
+  color: white;
+  align-items: center;
+}
+/* Navbar CSS End */
+
+/* First Page CSS Start */
+.main-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assest/Home1.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 600px;
+  width: 50%;
+  margin-left: 100px;
+}
+
+.heading-5 {
+  font-family: "Nunito Sans";
+  font-size: 1.3rem;
+  text-align: center;
+  color: #06bbcc;
+}
+
+.heading-1 {
+  font-family: "Nunito Sans";
+  font-size: 3.5rem;
+  color: white;
+  font-weight: 700;
+}
+
+.para1 {
+  font-family: "Heebo", sans-serif;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 400;
+}
+
+.btn {
+  display: flex;
+}
+
+.btn0 {
+  height: 60px;
+  width: 170px;
+  margin-top: 30px;
+  margin-right: 20px;
+  border: none;
+}
+
+.btn0 a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.btn1 {
+  background-color: #06bbcc;
+}
+
+.btn1 a {
+  color: white;
+}
+/* First Page CSS End */
+
+/* Second Page CSS Start */
+.container-two {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box {
+  height: 280px;
+  width: 280px;
+  background-color: #dbfbfe9b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box i {
+  font-size: 3.3rem;
+  color: #06bbcc;
+  margin-bottom: 20px;
+}
+
+.box h5 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.box p {
+  font-size: 1.1rem;
+  font-family: "Heebo", sans-serif;
+}
+
+.box:hover {
+  background-color: #06bbcc;
+  position: relative;
+  bottom: 10px;
+  box-shadow: 10px 10px 24px 0px #06bbcc90;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.box:hover * {
+  color: white;
+}
+/* Second Page CSS End */
+
+/* About Page CSS Start */
+.abt-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 650px;
+  width: 100%;
+}
+
+.abt-content {
+  width: 40%;
+  margin-left: -100px;
+}
+
+.abt-img img {
+  height: 530px;
+  width: 500px;
+}
+
+.abt-content h5 {
+  font-size: 1.2rem;
+  color: #06bbcc;
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+.abt-content h1 {
+  font-size: 1.6rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.abt-content p {
+  font-size: 1rem;
+  font-family: "Heebo", sans-serif;
+}
+
+.abt-item i {
+  color: #06bbcc;
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+.abt-para {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.abt-para2 {
+  margin-bottom: 20px;
+}
+
+.abt-item-container {
+  display: flex;
+}
+
+.abt-item {
+  margin-right: 80px;
+}
+/* About Page CSS End */
+
+/* Courses Categories CSS Start */
+.categories-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.cat-name h5 {
+  color: #06bbcc;
+}
+
+.course {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+.course-col {
+  flex-basis: 31%;
+  background-color: #dbfbfe9b;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.course-col h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px 0px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.course-col p {
+  font-family: "Heebo", sans-serif;
+}
+
+.course-col:hover {
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.4);
+  background-color: #06bbcc;
+  color: white;
+}
+/* Courses Categories CSS End */
+
+/* Popular Courses CSS Start */
+.pc-container {
+  height: 650px;
+  width: 100%;
+}
+
+.pc-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.pc-header h5 {
+  color: #06bbcc;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  height: 450px;
+  width: 350px;
+  background-color: #dbfbfe9b;
+  margin-top: 20px;
+}
+
+.card img {
+  height: 50%;
+  width: 100%;
+  margin: 0;
+}
+
+.cards-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-btn a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+}
+
+.card-btn {
+  height: 30px;
+  width: 130px;
+  border: none;
+  margin-right: 10px;
+  background-color: #06bbcc;
+  border-radius: 10% / 50%;
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content h3 {
+  font-size: 1.8rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.rating {
+  font-size: 0.9rem;
+  font-family: "Heebo", sans-serif;
+}
+
+.rating i {
+  color: #06bbcc;
+}
+
+.card-content h5 {
+  font-size: 1.4rem;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.cards-info {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbfbfe9b;
+  border-top: 1px solid black;
+}
+
+.card-info {
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border-right: 1px solid black;
+}
+
+.bdr {
+  border-right: none !important;
+}
+
+.card-info i {
+  color: #06bbcc;
+  margin-right: 10px;
+  text-align: center;
+}
+/* Popular Courses CSS End */
+
+/* Instructors Page CSS Start */
+.instructors-container {
+  height: 600px;
+  width: 100%;
+}
+
+.instruct-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.instruct-header h5 {
+  color: #06bbcc;
+}
+
+.instruct-cards {
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
+}
+
+.instruct-card {
+  height: 420px;
+  width: 300px;
+  margin-top: 20px;
+  background-color: #dbfbfe9b;
+}
+
+.instruct-card img {
+  height: 68%;
+  width: 100%;
+  margin: 0;
+}
+
+.sm-icons {
+  height: 50px;
+  width: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dbfbfe9b;
+}
+
+.sm-icon {
+  display: flex;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 30px;
+}
+
+.icon-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: #06bbcc;
+  margin: 0px 10px;
+}
+
+.icon-sm i {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.instruct-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  margin-top: -20px;
+}
+
+.instruct-content h4 {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.instruct-content small {
+  font-family: "Heebo", sans-serif;
+  font-size: 1.2rem;
+}
+/* Instructors Page CSS End */
+
+/* Testimonial Page CSS Start */
+.tm-container {
+  height: 1130px;
+  width: 100%;
+}
+
+.tm-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.tm-header h5 {
+  color: #06bbcc;
+}
+
+.stu-cards {
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
+}
+
+.stu-card {
+  height: 350px;
+  width: 380px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stu-card:hover {
+  border: 2px solid #06bbcc;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.stu-card img {
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  margin-top: 40px;
+  border-radius: 50%;
+}
+
+.stu-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+}
+
+.stu-name h5 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.8rem;
+}
+
+.stu-name p {
+  font-family: "Heebo", sans-serif;
+  font-size: 1.2rem;
+  color: #52565b;
+}
+
+.stu-para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dbfbfe9b;
+  height: 100%;
+}
+
+.stu-para p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #52565b;
+  font-family: "Heebo", sans-serif;
+  margin: 0px 10px;
+}
+
+.stu-para:hover {
+  background-color: #06bbcc;
+  color: white;
+}
+
+.stu-para:hover * {
+  color: white;
+}
+/* Testimonial Page CSS End */
+
+/* Footer Page CSS Start */
+.ftr-container {
+  height: 455px;
+  width: 100%;
+  background-color: #181d38;
+}
+
+.inner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #181d38;
+}
+
+.ftr-info {
+  height: 330px;
+  width: 20%;
+  background-color: #181d38;
+  margin-top: 40px;
+}
+
+.ftr-info h4 {
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.info1 a {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.info1 a:hover {
+  letter-spacing: 1px;
+}
+
+.info1 i {
+  margin: 0px 10px;
+  font-size: 0.6rem;
+}
+
+.info2 a {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.info2 i {
+  margin: 0px 10px;
+}
+
+.sm-links {
+  display: flex;
+  align-items: center;
+  margin: 20px 10px;
+}
+
+.sm-link {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px;
+}
+
+.sm-link a {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.gal-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 160px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.gal-img {
+  height: 75px;
+  width: 30%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gal-img img {
+  margin: 0px;
+  height: 70px;
+  width: 90%;
+}
+
+.info4 p {
+  color: white;
+  font-size: 1rem;
+  margin: 20px 0px;
+  font-family: "Heebo", sans-serif;
+}
+
+.i-box {
+  height: 80px;
+  width: 100%;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.i-btn {
+  height: 45px;
+  width: 115px;
+  border: none;
+  background-color: #06bbcc;
+  color: white;
+  position: relative;
+  left: 130px;
+  bottom: 63px;
+  font-size: 1.1rem;
+}
+
+.cr-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85px;
+  width: 90%;
+  border-top: 1px solid white;
+}
+
+.cr-left {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cr-left i {
+  font-size: 1rem;
+  color: white;
+}
+
+.cr-left a {
+  font-size: 1rem;
+  color: white;
+}
+
+.cr-left span {
+  font-size: 1rem;
+  color: white;
+}
+
+.cr-right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cr-right a {
+  font-size: 1rem;
+  color: white;
+  margin: 0px 20px;
+  text-decoration: none;
+}
+
+.cr-right a:hover {
+  text-decoration: underline red;
+}
+/* Footer Page CSS End */
